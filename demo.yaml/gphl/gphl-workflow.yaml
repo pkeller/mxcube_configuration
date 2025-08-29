@@ -175,6 +175,11 @@ configuration:
       #        # Testing ONLY:
       #        co.gphl.wf.run_number: 7
 
+      # To enable the dumping of messages and payloads by the workflow.
+      # The messages/payloads will be written into a numbered subdirectory
+      # of the directory specified here.
+      #co.gphl.wf.msgDir: /mnt/scratch_fs1/pkeller/wf_msgs/wf
+
   #    Workflows, The options in the top elements are updated with the options
   #    in the individual type, and passed as options to teh workflow application
   # The following options are set elsewhere and can *not* be set here

@@ -114,7 +114,7 @@ task:
           # maximum_chi is automatically reduced to match kappa motor limits.
           maximum_chi: 48.0  # (°) Optional. Maximum chi value allowed for strategies.
           # Default 48
-          angular tolerance: 1.0  # (°) Optional.
+          angular_tolerance: 1.0  # (°) Optional.
           # Tolerance to distinguish strategy orientations
 
 # Other parameters are set (ultimately) from ISPyB. These are all optional:
